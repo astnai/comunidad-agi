@@ -51,7 +51,7 @@ export function ComunidadAgi() {
               <div className="flex justify-center items-center space-x-4">
                 <Link
                   href="https://ejemplo.com/podcast"
-                  className="inline-flex items-center px-6 py-3 bg-black text-white hover:text-black dark:bg-white dark:text-black border border-black rounded-xl text-md font-semibold transition-all duration-300 hover:bg-white dark:hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transform"
+                  className="inline-flex items-center px-4 py-2 bg-black text-white hover:text-black dark:bg-white dark:text-black border border-black rounded-xl text-md font-semibold transition-all duration-300 hover:bg-white dark:hover:bg-gray-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transform"
                 >
                   Escucha Nuestro Podcast
                 </Link>
