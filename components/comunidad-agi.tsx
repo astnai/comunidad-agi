@@ -36,12 +36,12 @@ export function ComunidadAgi() {
       </div>
 
       {/* Hero */}
-      <main className="flex-grow flex items-center justify-center pb-16 sm:pb-0 mt-[-60px] sm:mt-0">
+      <main className="flex-grow flex items-center justify-center pb-16 sm:pb-0 mt-[-70px] sm:mt-0">
         <div className="max-w-6xl mx-auto w-full px-4 py-6">
           <div className="max-w-4xl w-full mx-auto">
             <div className="text-center space-y-6">
               <h2 className="text-4xl font-extrabold leading-tight tracking-tighter sm:text-5xl md:text-6xl">
-                Conectando<br className="sm:hidden" /> mentes en IA
+                Conectando<br className="sm:hidden" /> Mentes en IA
               </h2>
               <p className="text-xl max-w-2xl mx-auto text-gray-800 dark:text-gray-300">
                 Comunidad AGI es un espacio de Inteligencia Artificial ubicado en Latinoamérica.
