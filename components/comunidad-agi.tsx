@@ -22,10 +22,10 @@ export function ComunidadAgi() {
       <div className="max-w-6xl mx-auto w-full px-4">
         <header className="flex justify-between items-center py-6 border-gray-200 dark:border-gray-800 sticky top-0 z-10 bg-white/80 dark:bg-black/80 backdrop-blur-sm">
           <h1 className="text-2xl font-bold tracking-tight">Comunidad AGI</h1>
-          <AudioPlayer src="/path-to-your-audio-file.mp3" />
+          <AudioPlayer src="/sound.mp3" />
           <div className="flex items-center space-x-4">
             <Link
-              href="https://ejemplo.com/escuchar"
+              href="https://open.spotify.com/show/4oFg0xXgZ5sZQZjYzQ4bYk"
               className="inline-flex items-center px-4 py-2 text-sm font-medium border border-black dark:border-white text-black hover:text-white dark:text-white rounded-xl transition-all duration-300 hover:bg-[#1A1A1A] dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
             >
               <Podcast className="w-4 h-4 mr-2" />
@@ -40,10 +40,10 @@ export function ComunidadAgi() {
         <div className="max-w-6xl mx-auto w-full px-4 py-6">
           <div className="max-w-4xl w-full mx-auto">
             <div className="text-center space-y-6">
-              <h2 className="text-4xl font-extrabold leading-tight tracking-tighter sm:text-5xl md:text-6xl">
+              <h2 className="text-3xl font-extrabold leading-tight tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
                 Conectando<br className="sm:hidden" /> Mentes en IA
               </h2>
-              <p className="text-xl max-w-2xl mx-auto text-gray-800 dark:text-gray-300">
+              <p className="text-sm sm:text-base md:text-lg max-w-2xl mx-auto text-gray-800 dark:text-gray-300">
                 Comunidad AGI es un espacio de Inteligencia Artificial ubicado en Latinoamérica.
                 Comparte, aprende y crece con nosotros.
               </p>
