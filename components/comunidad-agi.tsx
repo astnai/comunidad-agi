@@ -1,7 +1,8 @@
+/* Start of Selection */
 'use client'
 
 import { useEffect, useState } from "react"
-import { Podcast} from "lucide-react";
+import { Podcast } from "lucide-react"
 import Link from "next/link"
 import AudioPlayer from "./AudioPlayer"
 
@@ -17,7 +18,7 @@ export function ComunidadAgi() {
   }
 
   return (
-    <div className="flex flex-col h-screen bg-white text-black dark:bg-black dark:text-white transition-colors duration-300">
+    <div className="flex flex-col min-h-screen bg-white text-black dark:bg-black dark:text-white transition-colors duration-300">
       {/* Header */}
       <div className="max-w-6xl mx-auto w-full px-4">
         <header className="flex justify-between items-center py-6 border-gray-200 dark:border-gray-800 sticky top-0 z-10 bg-white/80 dark:bg-black/80 backdrop-blur-sm">
@@ -26,7 +27,7 @@ export function ComunidadAgi() {
           <div className="flex items-center space-x-4">
             <Link
               href="https://ejemplo.com/escuchar"
-              className="inline-flex items-center px-4 py-2 text-sm font-medium border border-black dark:border-white text-black hover:text-white dark:text-white  rounded-xl transition-all duration-300 hover:bg-[#1A1A1A] dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+              className="inline-flex items-center px-4 py-2 text-sm font-medium border border-black dark:border-white text-black hover:text-white dark:text-white rounded-xl transition-all duration-300 hover:bg-[#1A1A1A] dark:hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
             >
               <Podcast className="w-4 h-4 mr-2" />
               Escuchar
@@ -36,7 +37,7 @@ export function ComunidadAgi() {
       </div>
 
       {/* Hero */}
-      <main className="flex-grow flex items-center justify-center">
+      <main className="flex-grow flex items-center justify-center pb-16 sm:pb-0">
         <div className="max-w-6xl mx-auto w-full px-4 py-6">
           <div className="max-w-4xl w-full mx-auto">
             <div className="text-center space-y-6">
@@ -67,20 +68,20 @@ export function ComunidadAgi() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+      <footer className="fixed bottom-0 w-full bg-gray-50 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800 sm:relative">
         <div className="max-w-6xl mx-auto w-full px-4 py-4 flex justify-between items-center text-sm">
           <span className="text-gray-600 dark:text-gray-400 font-medium">
-            Build by <a href="https://github.com/astnai" className="text-gray-600 dark:text-gray-400 hover:underline">astnai</a>
+            Build by <a href="https://twitter.com/astnai" className="text-gray-600 dark:text-gray-400 hover:underline">astnai</a>
           </span>
           <div className="space-x-6">
             <Link
-              href="https://twitter.com/comunidadagi"
+              href="https://github.com/astnai/comunidad-agi/web"
               className="text-gray-600 dark:text-gray-400 hover:underline"
             >
               Source
             </Link>
             <Link
-              href="/contacto"
+              href="https://twitter.com/comunidadagi"
               className="text-gray-600 dark:text-gray-400 hover:underline"
             >
               Twitter
@@ -89,5 +90,5 @@ export function ComunidadAgi() {
         </div>
       </footer>
     </div>
-  );
+  )
 }
