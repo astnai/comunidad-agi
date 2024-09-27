@@ -41,7 +41,7 @@ export function ComunidadAgi() {
           <div className="max-w-4xl w-full mx-auto">
             <div className="text-center space-y-6">
               <h2 className="text-4xl font-extrabold leading-tight tracking-tighter sm:text-5xl md:text-6xl">
-                Conectando mentes en IA
+                Conectando<br className="sm:hidden" /> mentes en IA
               </h2>
               <p className="text-xl max-w-2xl mx-auto text-gray-800 dark:text-gray-300">
                 Comunidad AGI es un espacio de Inteligencia Artificial ubicado en Latinoamérica.
