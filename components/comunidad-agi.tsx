@@ -1,4 +1,3 @@
-/* Start of Selection */
 'use client'
 
 import { useEffect, useState } from "react"
@@ -37,7 +36,7 @@ export function ComunidadAgi() {
       </div>
 
       {/* Hero */}
-      <main className="flex-grow flex items-center justify-center pb-16 sm:pb-0">
+      <main className="flex-grow flex items-center justify-center pb-16 sm:pb-0 mt-[-60px] sm:mt-0">
         <div className="max-w-6xl mx-auto w-full px-4 py-6">
           <div className="max-w-4xl w-full mx-auto">
             <div className="text-center space-y-6">
