@@ -17,10 +17,10 @@ export function ComunidadAgi() {
   }
 
   return (
-    <div className="flex flex-col min-h-screen bg-white text-black dark:bg-black dark:text-white transition-colors duration-300">
+    <div className="flex flex-col min-h-screen bg-[#FCFCFC] text-black dark:bg-black dark:text-white transition-colors duration-300">
       {/* Header */}
       <div className="max-w-5xl mx-auto w-full px-3">
-        <header className="flex justify-between items-center py-4 border-gray-200 dark:border-gray-800 sticky top-0 z-10 bg-white/80 dark:bg-black/80 backdrop-blur-sm">
+        <header className="flex justify-between items-center py-4 border-gray-200 dark:border-gray-800 sticky top-0 z-10 bg-[#FCFCFC]/80 dark:bg-black/80 backdrop-blur-sm">
           <h1 className="text-lg font-bold tracking-tight">Comunidad AGI</h1>
           <AudioPlayer src="/sound.mp3" />
           <div className="flex items-center space-x-3">
@@ -55,7 +55,7 @@ export function ComunidadAgi() {
                   Escucha Nuestro Podcast
                 </Link>
                 <Link
-                  href="#"
+                  href="https://twitter.com/comunidadagi"
                   className="text-xs sm:text-sm font-regular text-gray-600 dark:text-white hover:underline focus:outline-none"
                 >
                   Síguenos
