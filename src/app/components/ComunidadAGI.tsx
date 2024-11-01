@@ -67,7 +67,7 @@ const ComunidadAGI: FC = () => {
             {mounted && (
               <>
                 <TypeAnimation
-                  sequence={["Bienvenido a Comunidad AGI"]}
+                  sequence={["Emocionate del futuro"]}
                   wrapper="h1"
                   speed={50}
                   className="mb-2 text-2xl font-semibold sm:text-3xl"
@@ -75,7 +75,7 @@ const ComunidadAGI: FC = () => {
                 />
                 <TypeAnimation
                   sequence={[
-                    "Explorando el futuro de la Inteligencia Artificial General",
+                    "Comunidad AGI es un espacio para explorar la Inteligencia Artificial.",
                   ]}
                   wrapper="p"
                   speed={50}
